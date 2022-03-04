@@ -1,0 +1,36 @@
+// 导航栏
+$navBg: #fff;
+$navHeight: 50px;
+
+// 侧边栏
+$sideBarBg: #001529;
+$sideBarWidth: 210px;
+$sideBarHideWidth: 54px;
+
+$menuText: #ffffffa6;
+$menuActiveText: #fff;
+
+$menuBg: #001529;
+$menuHover: #001529;
+$menuHoverText: #fff;
+$menuActiveColor: #1890ff;
+
+$subMenuBg: #000c17;
+$subMenuHover: #000c17;
+$subMenuHoverText: #fff;
+$subMenuActiveColor: #1890ff;
+$subMenuActiveText: #fff;
+
+// 面包屑
+$breadcrumbHeight: 50px;
+
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}

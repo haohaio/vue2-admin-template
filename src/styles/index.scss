@@ -1,0 +1,52 @@
+@import './variables.module.scss';
+@import './sidebar.scss';
+
+html, body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.el-dialog__header {
+  padding: 0;
+  height: 52px;
+  line-height: 52px;
+  border-bottom: 1px solid #e4e7ed;
+  font-weight: bold;
+}
+
+.el-dialog--center .el-dialog__body{
+  padding: 20px 25px 10px;
+  color: #606266;
+  text-align: center;
+}
+
+.el-form-item__label {
+  color: rgba(0,0,0,0.85);
+}
+
+.el-table thead {
+  color: #262626;
+}
+
+.el-table thead tr th:first-child .cell,
+.el-table tbody tr td:first-child .cell  {
+  padding-left: 28px;
+}
